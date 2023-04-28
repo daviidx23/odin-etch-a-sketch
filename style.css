@@ -1,6 +1,5 @@
 body {
     display: flex;
-    
 }
 
 
@@ -17,8 +16,8 @@ body {
 
 
 .grid-container {
-    flex: 1 1 auto;
-    max-width: 40px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .btn {
@@ -37,13 +36,10 @@ body {
     background-color: aqua;
     border: 2px solid black;
     padding: 16px;
-    flex: 1 1 auto;
 }
 
 .vertical-grid {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex: 1 1 auto;
-    
+    align-items: center; 
 }
